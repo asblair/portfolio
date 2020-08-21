@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Andrew's Projects</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <!-- Fonts used -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <!-- <h4>Marta Gimenez Galacho</h4> -->
+        <!-- <img src="images/logo.png" alt="" /> -->
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">What I Do</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- INTRODUCTION -->
+    <section class="intro">
+      <h3 class="section__title section__title--intro">
+        <strong>Swapp</strong>
+        <p>A free market to exchange products and services</p>
+      </h3>
+      <p class="section__subtitle section__subtitle--intro">
+        Full Stack Project
+      </p>
+      <img src="img/logo.jpg" alt="" class="intro__img" />
+    </section>
+    <div class="portfolio-item-individual">
+      <p>
+        Check out the deployed app:
+        <a href="http://134.209.198.125/">Swapp</a>
+      </p>
+      <p>
+        For more information, check out the project on:
+        <a href="https://github.com/asblair/swapp">GitHub Swapp Project</a>
+      </p>
+
+      <!-- <img src="images/landingpage.png" alt="" /> -->
+      <p>
+        A matching application for users looking to exchange or swap an unused
+        or unwanted item for something else. The idea about this application is
+        based on a free market system where no money is exchanged. However,
+        users can place values on their items or swaps and see available swaps
+        to exchange within a 20% margin of their initial value.
+      </p>
+      <p>
+        Swapp offers a great UI which makes it easy to navigate. Users need to
+        register and login to use the application and can create a profile.
+        Users are sent an email notification upon successful registration. They
+        can upload, edit and remove their swaps from their catalog. The user
+        needs to upload a swap in order to see availabe swaps where the user can
+        then search and filter available swaps by category, make and recieve
+        swap requests. An email notification is sent to the user when a request
+        is recieved. In the user area of the application, incoming requests can
+        be viewed, here they can decide to accept or decline the request. Upon
+        decline, the item is removed but a repeated request will not be
+        recieved. Upon accept, the swap will move from the requests area to
+        matches. The sender of the the request will be notified by email that
+        their request was accepted. The swaps will be avaible in both user
+        profiles in the matches area. Here, each user can view the others email
+        so they can be in direct contact to make their swap. Finally matches can
+        be removed from their areas. Additionally, users can make dontions
+        through Stripe to support a charity that supports people in need.
+      </p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:as_blair@msn.com" class="footer__link"
+        >as_blair@msn.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/asblair/"
+            ><i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/asblair">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://medium.com/@as_blair">
+            <i class="fab fa-medium"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
